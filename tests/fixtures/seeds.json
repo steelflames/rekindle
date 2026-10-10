@@ -1,0 +1,136 @@
+{
+  "source": {
+    "description": "Synthetic test roster. All community and profile names were invented.",
+    "declared_home_feed_entries": 26
+  },
+  "subreddits": [
+    {
+      "name": "ExampleExpertiseA",
+      "source_title": "Synthetic Expertise A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleExpertiseB",
+      "source_title": "Synthetic Expertise B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleStoriesA",
+      "source_title": "Synthetic Stories A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleStoriesB",
+      "source_title": "Synthetic Stories B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleScienceA",
+      "source_title": "Synthetic Science A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleScienceB",
+      "source_title": "Synthetic Science B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleArtA",
+      "source_title": "Synthetic Art A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleArtB",
+      "source_title": "Synthetic Art B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleHumorA",
+      "source_title": "Synthetic Humor A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleHumorB",
+      "source_title": "Synthetic Humor B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleGamesA",
+      "source_title": "Synthetic Games A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleGamesB",
+      "source_title": "Synthetic Games B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleTechnologyA",
+      "source_title": "Synthetic Technology A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleTechnologyB",
+      "source_title": "Synthetic Technology B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleHistoryA",
+      "source_title": "Synthetic History A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleHistoryB",
+      "source_title": "Synthetic History B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleIdeasA",
+      "source_title": "Synthetic Ideas A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleIdeasB",
+      "source_title": "Synthetic Ideas B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleEverydayA",
+      "source_title": "Synthetic Everyday A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleEverydayB",
+      "source_title": "Synthetic Everyday B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleAffairsA",
+      "source_title": "Synthetic Affairs A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleAffairsB",
+      "source_title": "Synthetic Affairs B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleCuriosityA",
+      "source_title": "Synthetic Curiosity A",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    },
+    {
+      "name": "ExampleCuriosityB",
+      "source_title": "Synthetic Curiosity B",
+      "source_description": "Invented test source. This is not a recommendation or a captured subscription."
+    }
+  ],
+  "followed_profiles": [
+    {
+      "username": "FixtureProfileAlpha"
+    },
+    {
+      "username": "FixtureProfileBeta"
+    }
+  ]
+}

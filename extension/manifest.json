@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Rekindle",
+  "version": "0.1.0",
+  "description": "Restore the magic. Read the human voices in a Reddit discussion with your local Rekindle portal.",
+  "browser_specific_settings": {"gecko": {"id": "rekindle-reader@local.rekindle", "strict_min_version": "140.0", "data_collection_permissions": {"required": ["websiteContent", "authenticationInfo"]}}, "gecko_android": {"strict_min_version": "142.0"}},
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://www.reddit.com/*", "https://old.reddit.com/*", "https://new.reddit.com/*", "https://reddit.com/*", "http://127.0.0.1/*"],
+  "background": {"scripts": ["background.js"]},
+  "action": {"default_title": "Rekindle this discussion", "default_icon": "icon.svg"},
+  "icons": {"48": "icon.svg", "96": "icon.svg"},
+  "options_ui": {"page": "options.html", "open_in_tab": true},
+  "content_scripts": [{"matches": ["https://www.reddit.com/*", "https://old.reddit.com/*", "https://new.reddit.com/*", "https://reddit.com/*"], "js": ["content.js"], "run_at": "document_idle", "all_frames": false}],
+  "web_accessible_resources": [{"resources": ["reader.html"], "matches": ["https://www.reddit.com/*", "https://old.reddit.com/*", "https://new.reddit.com/*", "https://reddit.com/*"]}],
+  "content_security_policy": {"extension_pages": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://i.redd.it https://preview.redd.it https://external-preview.redd.it https://*.thumbs.redditmedia.com; media-src https://v.redd.it https://i.redd.it; object-src 'none'; connect-src http://127.0.0.1:47831; frame-src 'self'; base-uri 'none'; form-action 'none'"}
+}

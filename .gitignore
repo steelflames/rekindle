@@ -1,0 +1,39 @@
+# Local runtime data and private input
+data/
+handoff/
+private/
+backups/
+.env
+.env.*
+*.local
+*.sqlite*
+*.db
+*.db-*
+*.dpapi
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.jsonl
+
+# Generated dependencies, builds, test outputs, browser profiles and packages
+node_modules/
+dist/
+artifacts/
+coverage/
+output/
+*.zip
+*.xpi
+*.crx
+
+# Machine and editor configuration
+.npmrc
+.yarnrc*
+.vscode/
+.idea/
+.codex/
+.agents/
+.aws/
+.DS_Store
+Thumbs.db
